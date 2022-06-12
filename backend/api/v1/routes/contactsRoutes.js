@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-const auctionsController = require("../controllers/contactsController")
+const contactsController = require("../controllers/contactsController")
 
 router.get('/', contactsController.getAllContacts);
 

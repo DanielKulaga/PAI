@@ -1,10 +1,10 @@
-const auctionsService = require('../services/auctionsService');
+const contactsService = require('../services/contactsService');
 
-const getAllContactss = async (req, res) => {
+const getAllContacts = async (req, res) => {
 
-    const allContacts = await auctionsService.getAllContacts();
+    const allContacts = await contactsService.getAllContacts();
 
-    res.status(200).json(allAuctions);
+    res.status(200).json(allContacts);
 }
 
 module.exports = {
