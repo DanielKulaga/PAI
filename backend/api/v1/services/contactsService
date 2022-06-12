@@ -1,0 +1,10 @@
+const contactDataAccess = require('../dataaccess/contactDataAccess')
+
+const getAllContacts = () => {
+    return contactsDAL.getAllContacts();
+}
+
+module.exports = {
+    getAllContacts,
+
+}
